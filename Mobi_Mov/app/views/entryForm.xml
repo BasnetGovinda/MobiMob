@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" platform="android" title="Visual Inspection">
+		
+		<ScrollView id="lorem" class="fold">
+			
+		</ScrollView>
+		
+	</Window>
+</Alloy>

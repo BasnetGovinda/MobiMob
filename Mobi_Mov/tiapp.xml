@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>mobi.mov</id>
+    <name>Mobi_Mov</name>
+    <version>1.0</version>
+    <publisher>Govinda</publisher>
+    <url>http://</url>
+    <description/>
+    <copyright>2015 by Govinda</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+   <guid>7155e007-8de6-493d-9444-4b2309307e6b</guid>
+   
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">true</target>
+    </deployment-targets>
+    <sdk-version>5.0.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5648acffc312a15a75b96156</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">nOM2NyBfIJ1tCIaNJKRbvhjBtX0uFurI</property>
+    <property name="acs-oauth-key-development" type="string">c2siMgYLT7rwXw6HVYqlGhuMWK4mNAUM</property>
+    <property name="acs-api-key-development" type="string">Wl0T5E306Dv904FVOcFOIPoqtVGpWYks</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">8zG4y7o1ZlrPw0bpqC</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">JZTzyA1nO0i3oczva9enfAOe4dCkF7xX</property>
+    <property name="acs-oauth-key-production" type="string">R6HPJVvBtkzG74gTHVIK5N6mTJVzTJY4</property>
+    <property name="acs-api-key-production" type="string">Fpkg3i7brxfRz3plorlCimkhgSvtzMOj</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">DfxjZSOsQAkE4j4yky</property>
+    <property name="appc-org-id" type="string">100081392</property>
+    <property name="appc-creator-user-id" type="string">7c5fbd73-67e3-4c56-ad31-2c4600f94630</property>
+</ti:app>

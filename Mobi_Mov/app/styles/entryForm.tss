@@ -1,0 +1,21 @@
+"#win": {
+backgroundColor:"White",
+layout:"vertical",
+},
+
+"#lorem":{
+height: Ti.UI.SIZE,
+width: "100%",
+
+},
+
+".fold":{
+width: Ti.UI.SIZE,
+height: Ti.UI.SIZE,
+layout:"vertical",
+backgroundColor: "White",
+},
+
+"ScrollView":{
+height: Ti.UI.SIZE,
+}

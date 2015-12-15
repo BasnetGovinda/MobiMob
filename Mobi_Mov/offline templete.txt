@@ -1,0 +1,26 @@
+
+inserting data for offline purpose
+################################################
+var templetdata=[{mfg:"",templateename:"",templetetype:"",json:""},
+{mfg:"",templateename:"",templetetype:"",json:""},
+{mfg:"",templateename:"",templetetype:"",json:""},
+{mfg:"",templateename:"",templetetype:"",json:""}]
+
+
+for(var i=0;i<templetedata.length();i++)
+{
+		db.execute(insert into tbl_templete(mfg,name,type,json);
+}
+
+
+
+creating inspection
+#############################################
+select distinct mfg from tbl_templete
+select distinct type from tbl_templete
+
+
+select  name from tbl_templete where mfg="asdasd"  and type="asdasd" 
+
+ 
+select json from tbl_templete where mfg="asdasd"  and type="asdasd" and name="asd";

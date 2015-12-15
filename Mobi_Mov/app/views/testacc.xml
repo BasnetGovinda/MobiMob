@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" platform="android" title="Inspection">
+		<View id="ttbar">
+			<Label id="vin"></Label>
+			<Button onClick="doClick"  title="Save"  top="3" right="3" width="80" height="44"  borderRadius="5"/>
+		</View>
+		<ScrollView id="lorem" class="fold"></ScrollView>
+	</Window>
+</Alloy>

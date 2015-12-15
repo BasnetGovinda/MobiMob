@@ -1,0 +1,43 @@
+"#win": {
+backgroundColor:"#CCCCCC",
+layout:"vertical",
+navBarAtTop :false
+},
+
+"#lorem":{
+height: Ti.UI.SIZE,
+width: "100%",
+
+},
+
+".fold":{
+width: Ti.UI.SIZE,
+height: Ti.UI.SIZE,
+layout:"vertical",
+backgroundColor: "White",
+},
+
+"ScrollView":{
+height: Ti.UI.SIZE,
+},
+"#ttbar":{
+	width:"100%",
+	height:50,
+	backgroundColor: "#007f97",
+},
+"#vin":{
+	top:3,
+	 left:5,
+	 width:200,
+	 text:"VIn:sacfsdfczdc",
+	  height:44,
+	  color:"white",
+	  font:{
+        fontSize: '16',
+        fontFamily: 'arial',
+        fontWeight: 'bold'
+    }
+}
+
+
+

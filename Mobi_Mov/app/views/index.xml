@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" title="Login" >
+		<View id="main_view">
+		<ImageView id="imgvu"></ImageView>
+		
+		<TextField id="uname"></TextField>
+		<TextField id="pass" passwordMask="true"></TextField>
+		<Button id="btn" onClick="check">Login</Button>
+		<!--<Label id="label2">Forget your Password</Label>-->
+		<Label id="label3" onClick="createNew">Create New Account</Label>
+		
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" platform="android" title="Inspection">
+		<View id="ttbar">
+			<Label id="vin"></Label>
+	
+		</View>
+				<ScrollView id="lorem" class="fold">
+			
+		</ScrollView>
+		
+	</Window>
+</Alloy>
